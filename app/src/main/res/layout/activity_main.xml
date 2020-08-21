@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cars"
+    android:background="@color/background"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/r34" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="YEET"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imvR8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/r8">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imvWRX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/wrx">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imvM2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/m2coupe">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imv370Z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/z370">
+            </ImageView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
