@@ -23,9 +23,9 @@ public class ViewImage extends AppCompatActivity {
         Bundle extras = intent.getExtras();
 
         String carName = extras.getString("strRes", "It didnt work");
-        int imageRes = extras.getInt("imgRes", R.drawable.r34);
+        int imgRes = extras.getInt("imgRes", R.drawable.r34);
 
-        imageView.setImageResource(imageRes);
+        imageView.setImageResource(imgRes);
         textView.setText(carName);
     }
 }
